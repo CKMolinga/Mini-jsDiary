@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0dee2;
+}
+
+.container {
+    width: 500px;
+    margin: 5rem 0;
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.save {
+    margin: 1.7rem 0;
+}
+
+.save p {
+    font-size: 1.9rem;
+    color: #3e52be;
+}
+
+.save button {
+    border: none;
+    padding: 0.6rem 1rem;
+    color: white;
+    border-radius: 20px;
+    background-color: #224272;
+}
+
+.typed-area {
+    background: #dddddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.4rem;
+    display: none;
+    color: gray;
+}
+
+header p,
+span {
+    color: #3e52be;
+}
+
+textarea {
+    max-width: 436px;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #bebebe;
+    outline: none;
+}
+
+textarea:focus {
+    border: 1px solid #ffb121;
+}
+
+ul li {
+    list-style: none;
+    margin: 1rem 0;
+    background: #dddddd;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+li p {
+    color: gray;
+}
+
+.ml {
+    margin-left: 0.4rem;
+}
+
+.date {
+    margin-bottom: 0.7rem;
+    color: #3e52be;
+    font-weight: 500;
+}
+
+.fa-calendar-alt,
+.fa-ellipsis-v {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.fa-ellipsis-v {
+    position: absolute;
+    right: 15px;
+    top: 16px;
+}
+
+.dItem {
+    color: #918d8d;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: #c0c0c0;
+}
